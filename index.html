@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<!--Εφαρμογή8: Πίνακας με συγχώνευση κυψελών, κλάση καιεσωτερική μορφοποίηση CSS Αρχείο p08.html-->
+<html lang="el-GR">
+<head> 
+<title>Διεθνείς διοργανώσεις μπάσκετ</title>
+<meta charset="utf-8">
+<meta name="author" content="Ο συγγραφέας">
+<meta name="description" content="Πίνακας με συγχώνευση κυψελών, κλάση και εσωτερική μορφοποίηση CSS">
+<style>
+table{
+border:10px ridge green;
+border-collapse:collapse;}
+td,th{
+border:1px dashed green;
+padding:10px;
+text-align:center;
+}
+th{
+background-color:lightgreen;
+color:blue;}
+.eb{
+background-color:lightblue;}
+p{
+float:left;
+position:absolute;
+left:800px;
+top:180px;
+}
+</style>
+</head>
+<body>
+<table>
+<tr>
+<th>Διοργάνωση</th><th>Ξεκίνησε</th><th>Διοργανώτρια</th><th>Χρονιά</th><th  colspan="2">Νικήτρια</th></tr>
+<tr><td rowspan=3>Παγκόσμιο Κύπελλο Μπάσκετ</td><td rowspan=3>1950</td>
+<td rowspan=3>FIBA</td>
+<td>2006</td>
+<td>Ισπανία</td>
+<td><img src="esp.gif" height="30px" alt="σημαία Ισπανίας"></td></tr>
+<tr><td>2010</td><td>ΗΠΑ</td><td><img src="usa.gif" height="30px" alt="σημαία ΗΠΑ"></td></tr>
+<tr><td>2014</td><td>ΗΠΑ</td><td><img src="usa.gif" height="30px" alt="σημαία ΗΠΑ"></td></tr>
+<tr class="eb"><td rowspan="6">Ευρωμπάσκετ</td><td rowspan="6">1935</td><td rowspan="6">FIBA Europe</td><td>2003</td><td>Λιθουανία</td>
+<td><img src="lt.gif" height="30px" alt="σημαία Λιθουανίας"></td></tr>
+<tr class="eb"><td>2005</td><td>Ελλάδα</td><td><img src="gre.gif" height="30px" alt="σημαία Ελλάδας"></td></tr>
+<tr class="eb"><td>2007</td><td>Ρωσία</td><td><img src="rus.gif" height="30px" alt="σημαία Ρωσίας"></td></tr>
+<tr class="eb"><td>2009</td><td>Ισπανία</td><td><img src="esp.gif" height="30px" alt="σημαία Ισπανίας"></td></tr>
+<tr class="eb"><td>2011</td><td>Ισπανία</td><td><img src="esp.gif" height="30px" alt="σημαία Ισπανίας"></td></tr>
+<tr class="eb"><td>2013</td><td>Γαλλία</td><td><img src="fra.gif" height="30px" alt="σημαία Γαλλίας"></td>
+</tr></table>
+<p>
+<img src="molten.jpg" height="200px">
+</p>
+</body>
+</html> 
